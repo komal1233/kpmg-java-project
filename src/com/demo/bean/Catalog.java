@@ -1,5 +1,5 @@
 package com.demo.bean;
 
-public class User {
-	
+public class Catalog {
+
 }

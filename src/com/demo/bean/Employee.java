@@ -11,6 +11,10 @@ public class Employee {
 	private int empId;
 	private String empName;
 	private String empAddress;
+	@Override
+	public String toString() {
+		return "Employee [empId=" + empId + ", empName=" + empName + ", empAddress=" + empAddress + "]";
+	}
 	/**
 	 * @return the empId
 	 */
